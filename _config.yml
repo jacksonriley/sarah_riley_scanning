@@ -27,6 +27,7 @@ url: "https://jacksonriley.github.io" # the base hostname & protocol for your si
 
 # Build settings
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
