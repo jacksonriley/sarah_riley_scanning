@@ -9,12 +9,6 @@ layout: default
 
   {{ content }}
 
-  <img src="assets/img/logo.png" alt="">
-  <img src="../assets/img/logo.png" alt="">
-  <img src="{{ 'assets/img/logo.png' | relative_url }}">
-  <img src="{{site.url}}/{{ site.baseurl }}/assets/img/logo.png">
-
-
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
