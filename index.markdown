@@ -4,6 +4,15 @@
 
 layout: home
 ---
-This is the home page
 
-Could have a blurb here with a few nice photos
+## Travelling Ultrasonography and Radiology
+### More info or image
+
+## Top of the range Philips CX50 Colour Doppler Ultrasound offering superb images
+### More info or image
+
+## X-Ray second opinion service
+### More info or image
+
+## Experienced small animal clinician
+### More info or image

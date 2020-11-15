@@ -1,8 +1,7 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
-
-This is an about page for Sarah.
-Could have experience, places you've worked, things you're able to scan?
+### History
+### Experience

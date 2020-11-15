@@ -21,14 +21,14 @@
 title: Sarah Riley Imaging
 email: sarahriley@btinternet.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Demo site for Sarah Riley Imaging.
+  Sarah Riley. Veterinary Ultrasonography and Radiology Consultant.
 baseurl: "/sarah_riley_scanning" # the subpath of your site, e.g. /blog
 url: "https://jacksonriley.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
