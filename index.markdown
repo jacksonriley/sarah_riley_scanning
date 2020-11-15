@@ -4,3 +4,6 @@
 
 layout: home
 ---
+This is the home page
+
+Could have a blurb here with a few nice photos
