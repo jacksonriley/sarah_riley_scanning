@@ -5,16 +5,17 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
-      {%- if site.author %}
         <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
+            <li class="p-name">Sarah Riley</li>
+            <li>
+              <img src="{{ site.baseurl }}/assets/img/email.svg" style="width:15px;">
+              <a class="u-email" href="mailto:sarahriley@btinternet.com">sarahriley@btinternet.com</a>
+            </li>
+            <li>
+              <img src="{{ site.baseurl }}/assets/img/phone.svg" style="width:15px;">
+              +44 7718 908721
+            </li>
         </ul>
-      {%- endif %}
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
