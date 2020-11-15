@@ -5,9 +5,10 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a href="{{ "/" | relative_url }}">
-      <img src="{{ 'assets/img/logo.png' | relative_url }}">
+      <img src="{{site.baseurl}}/assets/img/logo.png" alt="">
     </a>
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    the image source should be {{site.baseurl}}/assets/img/logo.png
 
     {%- if titles_size > 0 -%}
       <nav class="site-nav">
