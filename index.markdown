@@ -4,7 +4,7 @@
 
 layout: home
 ---
-
+This is the home page
 ## Travelling Ultrasonography and Radiology
 ### More info or image
 
